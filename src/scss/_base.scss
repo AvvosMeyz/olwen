@@ -1,2 +1,71 @@
 // ad your base styles here styling body, div etc.
 
+* {
+  font-family: 'Raleway', cursive;
+  color: #ebecdf;
+}
+
+
+.mycol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+
+.myrow1 {
+  background: url('/src/img/deneme.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.cyril-saulnier-239467-unsplash.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='cyril-saulnier-239467-unsplash.jpg', sizingMethod='scale')";
+}
+
+.line {
+  height: 1vh;
+  border: 1px black solid;
+  background-color: black;
+}
+
+.myrow2{
+  background-color: #73C6B6  
+}
+
+@media (max-width: 767.98px){
+
+  .myhead{
+    display: none;
+  }
+
+}
+
+.nav-link {
+  color: #a6373b; 
+}
+
+.mytitle{
+  font-family: 'Kranky', cursive;
+  font-size: 5rem;
+}
+
+
+.myhead {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.mytext{
+  font-size: 5rem;
+  color: white;
+}
+
+.mynav {
+ background-color: #ebecdf;
+}
