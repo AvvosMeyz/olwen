@@ -8103,7 +8103,18 @@ a.text-dark:hover, a.text-dark:focus {
   color: #ebecdf;
 }
 
+html, body {
+  -webkit-font-smoothing: antialiased;
+}
+
 .mycol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 83vh;
+}
+
+.mycol2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8116,6 +8127,7 @@ a.text-dark:hover, a.text-dark:focus {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  image-rendering: pixelated;
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.cyril-saulnier-239467-unsplash.jpg', sizingMethod='scale');
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='cyril-saulnier-239467-unsplash.jpg', sizingMethod='scale')";
 }
@@ -8128,6 +8140,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .myrow2 {
   background-color: #73C6B6;
+  min-width: 100vh;
 }
 
 @media (max-width: 767.98px) {
@@ -8153,11 +8166,14 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .mytext {
+  font-family: 'Raleway', cursive;
   font-size: 5rem;
   color: white;
+  text-shadow: 0 1px 0 white;
 }
 
 .mynav {
+  height: 6vh;
   background-color: #ebecdf;
 }
 /*# sourceMappingURL=app.css.map */

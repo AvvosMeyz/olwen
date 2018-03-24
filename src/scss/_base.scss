@@ -5,14 +5,28 @@
   color: #ebecdf;
 }
 
+html, body {
+  -webkit-font-smoothing: antialiased;
+}
+
+
+
 
 .mycol {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-
+  min-height: 83vh;
 }
+
+.mycol2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
 
 .myrow1 {
   background: url('/src/img/deneme.jpg') no-repeat center center fixed;
@@ -20,6 +34,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  image-rendering: pixelated;
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.cyril-saulnier-239467-unsplash.jpg', sizingMethod='scale');
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='cyril-saulnier-239467-unsplash.jpg', sizingMethod='scale')";
 }
@@ -31,8 +46,10 @@
 }
 
 .myrow2{
-  background-color: #73C6B6  
+  background-color: #73C6B6;
+  min-width: 100vh;
 }
+
 
 @media (max-width: 767.98px){
 
@@ -45,6 +62,7 @@
 .nav-link {
   color: #a6373b; 
 }
+
 
 .mytitle{
   font-family: 'Kranky', cursive;
@@ -62,10 +80,15 @@
 
 
 .mytext{
+  font-family: 'Raleway', cursive;
   font-size: 5rem;
   color: white;
+  text-shadow: 0 1px 0 white;
 }
 
+
+
 .mynav {
- background-color: #ebecdf;
+  height: 6vh;
+  background-color: #ebecdf;
 }
